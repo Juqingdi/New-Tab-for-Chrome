@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/32.png"
+      }
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/128.png",
+      "32": "img/32.png",
+      "64": "img/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsck4Sr1bMpbEO2LTAt4ptKiNnkWpUasjcyXgjxF8f26DfwadADuLn+H6ZjF7pGRBrnyVPJGvQo/za5D9b1ujhf9TPTbK1BJdZcODqN5Xf70jH4ldFrAdGWAfgUeGJxk+Pfd+vt43H7AwRt2l2sBJq+96fftK7UHEBLSMg9zP6EhWVp4D/NL9iHIwwaZqarASijP15SUIqPHPjrLsPRN2Iy5S7gFeCAX076/C/I2KQthukkYPpjCeYsUKuPPlVieH7LS9JmM+sUUxoQuAdb/QGcgiZib/3Ch52Lb3sNh38628+p34rDBCxNJ+rGFPLtyybyyT60TEjHSR4fwAGej8uwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "\u003Call_urls>", "tabs", "storage", "unlimitedStorage", "history", "topSites", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.9"
+}
